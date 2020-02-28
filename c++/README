@@ -1,3 +1,6 @@
+
+HOW TO RUN THESE PROGRAMS
+
 ./hybridzone_simulator 2.7 0.3 0.4 xyz_ selection
 runs the simulation with selection model (just leave out the selection flag to
 run neutral model) with assortativity parameters 2.7 and 0.3 (the latter being

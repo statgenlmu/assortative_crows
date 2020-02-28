@@ -1,3 +1,6 @@
+
+HOW TO RUN THESE SIMULATIONS IN THE BACKGROUND:
+
 Ran for 2000 generations:
 
 nohup nice ./hybridzone_simulator 2.171128 0.6172853 0.7766008 best_sel_ > /dev/null &

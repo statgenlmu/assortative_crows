@@ -1,0 +1,10 @@
+
+R commands used to fit several model variants
+to the available data in files
+optimize_model_parameters.R
+optimize_model_parameters_sel_add.R
+optimize_model_parameters_sel.R
+optimize_model_params_pure.R
+
+R commands used to analysis simulations results in file
+eval_simulation.R
