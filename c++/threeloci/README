@@ -1,0 +1,10 @@
+Ran for 2000 generations:
+
+nohup nice ./hybridzone_simulator 2.171128 0.6172853 0.7766008 best_sel_ > /dev/null &
+nohup nice ./hybridzone_simulator 1 1 0.7766008 allmate_ > /dev/null &
+
+
+Ran for 6000 generations:
+
+nohup nice ./hybridzone_simulator 2.171128 0.6172853 0.7766008 best_sel_6000_ > /dev/null &
+nohup nice ./hybridzone_simulator 1 1 0.7766008 allmate_6000_ > /dev/null &

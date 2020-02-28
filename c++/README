@@ -1,0 +1,12 @@
+./hybridzone_simulator 2.7 0.3 0.4 xyz_ selection
+runs the simulation with selection model (just leave out the selection flag to
+run neutral model) with assortativity parameters 2.7 and 0.3 (the latter being
+the threshold) and initial western locus 2 d allele frequency of 0.4.
+It writes two output files xyz_finfreqs.csv and xyz_simres.csv .
+
+./hybridzone_simulator 2.7 0.3 0.4 xyz_ selection additive
+runs as above but with additive genetic architecture for color. (Only works
+with selection as 5th and additive as 6th option)
+
+ ./genotype_llh xyz_finfreqs.csv 2.7 0.3 ../Data/data_central_red.txt selection
+then calculates the log likelihoods for a range of initial contact points
