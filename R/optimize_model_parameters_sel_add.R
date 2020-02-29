@@ -1,4 +1,4 @@
-if(FALSE) {
+if(FALSE) { ## set to TRUE to allow that
     ## allele 2 can be polymorphic in the west, which means that not all crows are black there
     funk <- function(par) {
         print(par)
@@ -18,7 +18,7 @@ if(FALSE) {
         min(-ma,1e10)
     }
     
-    if (FALSE) { 
+    if (FALSE) { ## set to true to use parallel optimization package
         library(optimParallel)
         cl <- makeCluster(8)
         setDefaultCluster(cl=cl)

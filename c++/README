@@ -15,5 +15,11 @@ It writes two output files xyz_finfreqs.csv and xyz_simres.csv .
 runs as above but with additive genetic architecture for color. (Only works
 with selection as 5th and additive as 6th option)
 
- ./genotype_llh xyz_finfreqs.csv 2.7 0.3 ../Data/data_central_red.txt selection
+ ./genotype_llh xyz_finfreqs.csv 2.7 0.3 data.txt selection
 then calculates the log likelihoods for a range of initial contact points
+
+The data file data.txt must contain a head line with the names of six columns
+followed by a line for each bird. The six blank-separated columns must contain
+for each bird (or its sampling site) the latitude, the longitude,
+the distance along the transect from the most western point of the range,
+the nest ID, the genotyple (0, 1 or 2) at locus 1 and the genotype at locus 2.

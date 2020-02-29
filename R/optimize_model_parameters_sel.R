@@ -14,7 +14,7 @@ funk <- function(par) {
     -ma
 }
 
-if (FALSE) { 
+if (FALSE) { ## set to TRUE to use parallel optimization package
     library(optimParallel)
     cl <- makeCluster(12)
     setDefaultCluster(cl=cl)
@@ -25,6 +25,6 @@ if (FALSE) {
 
     
 } else {
-    opp <- optim(c(2.171128,0.6172853,0.7766008),funk)
+    opp <- optim(c(2.171128,0.6172853,0.7766008),funk) ## starting values were results from previous optimization runs
     write(opp$par,file="opp_sel9.txt",append=TRUE)
 }

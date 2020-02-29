@@ -18,7 +18,7 @@ funk <- function(par) {
     -ma
 }
 
-if (FALSE) { 
+if (FALSE) {  ## set to TRUE to use parallel optimization
     library(optimParallel)
     cl <- makeCluster(12)
     setDefaultCluster(cl=cl)

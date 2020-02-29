@@ -1,3 +1,10 @@
+The R files in this folder contain blocks of code lines that have
+been used fit our model to data and to evaluate simulation runs.
+We used this R code in interactive R sessions. Therefore,
+the files are not organized as R scripts to run in batchmode.
+
+R commands to fit dispersal model to data of Siefke '94
+fit_dispersal_distr.R
 
 R commands used to fit several model variants
 to the available data in files
