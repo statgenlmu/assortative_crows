@@ -1,0 +1,6 @@
+Finite population size models with a grid of 1000x500 nests.
+
+nest_grid_sim  : closest to our main model
+nest_grid_imprint_sim   :  femals choose males according to her mid-parental phenotype
+nest_grid_imprint_f_sim   :  femals choose males according to her father's phenotype
+nest_grid_imprint_m_sim   :  femals choose males according to her mother's phenotype
